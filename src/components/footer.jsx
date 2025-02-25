@@ -1,0 +1,26 @@
+import styled from "styled-components";
+
+const FooterContainer = styled.footer`
+  background-color: #4B251C; /* Cor suave para combinar com confeitaria */
+  color: #ffffff; /* Cor de chocolate */
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+`;
+
+const Info = styled.p`
+  margin: 5px 0;
+`;
+
+const Footer = () => {
+  return (
+    <FooterContainer>
+      <Info>📍 Loja deLeite Bolos e Doces - Feito com amor! ❤️</Info>
+      <Info>🕒 Horário de Funcionamento:</Info>
+      <Info>Seg a Sex: 09h as 19h | Sáb 09h as 17h e Dom: 09h as 14h</Info>
+      <Info>📞 Contato: (11) 997636383</Info>
+    </FooterContainer>
+  );
+};
+
+export default Footer;
