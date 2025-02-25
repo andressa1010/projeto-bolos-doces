@@ -1,16 +1,10 @@
 import React from "react";
-import Menu from "../components/menu";
-import Logo from "../components/logo";
-import BolosApp from "../components/BolosApp";
-import LogoCardapio from "../components/logoCardapio";
+import BolosCarrinho from "./bolosCarrinho";
 
 const Cardapio = () => {
   return (
     <>
-      <Menu />
-      <Logo />
-      <LogoCardapio/>
-      <BolosApp/>
+      <BolosCarrinho/>
     </>
   );
 };
