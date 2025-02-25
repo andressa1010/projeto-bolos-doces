@@ -286,6 +286,7 @@ const Home = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          sandbox="allow-scripts allow-same-origin"
         ></iframe>
         <img src={imgLojaDeLeite} />
       </ContainerMaps>
