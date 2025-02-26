@@ -45,15 +45,13 @@ import imgBoloPascoca from "../assets/bolo-pote-deleite02.png";
 import imgBoloFuba from "../assets/bolo-fuba.png";
 import imgBoloIougut from "../assets/bolo-igout.png";
 import imgBoloFormigueiro from "../assets/bolo-formigueiro.png";
-import imgBannerCard from "../assets/banner-bolos01.png"
-import bannerCaseiros from "../assets/Banner Promoção Loja de Bolo Padaria Confeitaria Moderno Marrom Rosa Amarelo (5).png"
+import imgBannerCard from "../assets/banner-bolos01.png";
+import bannerCaseiros from "../assets/Banner Promoção Loja de Bolo Padaria Confeitaria Moderno Marrom Rosa Amarelo (5).png";
 import imgPaodeMelBrigadeiro from "../assets/pao-de-mel04.png";
 import imgPaodeMell from "../assets/pão-de-mel01.png";
 import Avaliacoes from "./avaliacoes.jsx";
 import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
-import BolosApp from "./bolosApp.jsx";
-
 
 const Home = () => {
   return (
@@ -83,7 +81,6 @@ const Home = () => {
         </h2>
         <img src={imgIreneElaine} />
       </ContainerSobre>
-      
       <ContainerBanner>
         <img src={imgBolosBanner} />
       </ContainerBanner>
@@ -122,14 +119,15 @@ const Home = () => {
         <img src={imgBoloPascoca} />
       </ContainerBoloPascoca>
 
-     <ContainerBanner>
-      <img src={bannerCaseiros}/>
-     </ContainerBanner>
+      <ContainerBanner>
+        <img src={bannerCaseiros} />
+      </ContainerBanner>
 
       <ContainerDescricaoBolos>
         <p>
-          Sabor de casa, carinho em cada pedaço! Experimente nosso bolo caseiro
-          fofinho e irresistível. Perfeito para acompanhar aquele café especial!
+          Tradição e sabor em cada pedaço! Nosso bolo de fubá com goiabada é
+          perfeito para acompanhar um café quentinho e trazer aquele gostinho de
+          infância.
         </p>
         <img src={imgBoloFuba} />
       </ContainerDescricaoBolos>
@@ -167,7 +165,77 @@ const Home = () => {
           delicie!
         </p>
       </ContainerBolosPotes>
-      
+
+      <ContainerBolosPotes>
+        <p>
+          Chocolate Sensação: "O encontro perfeito do chocolate com o morango!
+          Camadas cremosas que derretem na boca e despertam seus sentidos. Peça
+          já o seu!
+        </p>
+        <img src={imgBoloPote} />
+      </ContainerBolosPotes>
+
+      <ContainerBoloPoteMaracuja>
+        <img src={imgBoloPoteMaracuja} />
+        <p>
+          A doçura que encontra o azedinho perfeito!Nosso Bolo de Pote de
+          Maracujá é refrescante, cremoso e irresistível. Peça o seu e
+          surpreenda seu paladar!
+        </p>
+      </ContainerBoloPoteMaracuja>
+
+      <ContainerBoloMilho>
+        <p>
+          Bolo de Milho Sabor de fazenda em cada pedaço! Nosso bolo de milho é
+          fofinho, aromático e feito com ingredientes fresquinhos para te trazer
+          aquele gostinho caseiro irresistível. Perfeito com um café quentinho!
+        </p>
+        <img src={imgBoloMilho} />
+      </ContainerBoloMilho>
+
+      <ContainerBoloLaranja>
+        <img src={imgBoloLaranja} />
+        <p>
+          Bolo de Laranja Refrescante, macio e com um aroma irresistível! Feito
+          com suco natural de laranja para deixar seu dia mais leve e saboroso.
+        </p>
+      </ContainerBoloLaranja>
+
+      <ContainerBoloCaseiroMini>
+        <img src={imgBoloCaseiro} />
+        <p>
+          Sabor de Casa em Cada Fatia! Bolos caseiros fofinhos e feitos com
+          carinho, perfeitos para o seu café da manhã ou aquele lanche especial.
+          Peça já o seu e aproveite o sabor de aconchego!
+        </p>
+      </ContainerBoloCaseiroMini>
+      <ContainerBoloChocolateCaseiro>
+        <p>
+          Bolo de Chocolate Caseiro – Puro Sabor e Afeto! Nada como um bolo de
+          chocolate fofinho e molhadinho para adoçar o dia! Feito com
+          ingredientes selecionados e aquele toque especial de carinho, ele é
+          perfeito para acompanhar um café, presentear alguém ou simplesmente se
+          deliciar.
+        </p>
+        <img src={imgCaseiroChocolate} />
+      </ContainerBoloChocolateCaseiro>
+
+      <ContainerCardBanner>
+        <p>
+          Descubra o sabor irresistível dos nossos bolos e doces!Feito com
+          ingredientes selecionados e muito carinho, cada pedaço é uma
+          experiência única. Clique no botão abaixo e confira nosso cardápio
+          completo!
+        </p>
+        <img src={imgBannerCard} />
+      </ContainerCardBanner>
+
+      <ContainerBotaoCardapio>
+        <Link className="link-cardapio" to="/boloscarrinho">
+          Ver Cardápio
+        </Link>
+      </ContainerBotaoCardapio>
+
       <ContainerEntregas>
         <p>
           Sabor e praticidade em cada pedacinho! Faça já seu pedido pelo
@@ -181,13 +249,11 @@ const Home = () => {
         <img src={imgBanner} />
       </ContainerBanner>
 
-      <TituloDiv>
-        <h2>
-        Delícias que encantam! Escolha seu bolo favorito e adoce seu dia!
-        </h2>
-      </TituloDiv>
-      
-      <BolosApp/>
+      <VerCardapio>
+        <Link className="link-cardapio" to="/boloscarrinho">
+          Ver Cardápio
+        </Link>
+      </VerCardapio>
 
       <ContainerLoja>
         <img src={imgLoja} />
@@ -199,13 +265,12 @@ const Home = () => {
       </ContainerLoja>
 
       <ContainerLoja>
-      
-        <img src={imgAmbiente} />
         <p>
           Aqui, cada detalhe é pensado para adoçar o seu dia! Experimente nossos
           doces artesanais e aproveite um momento especial em um ambiente
           aconchegante. Venha nos visitar e descubra o sabor da felicidade!
         </p>
+        <img src={imgAmbiente} />
       </ContainerLoja>
 
       <TituloDiv>
@@ -221,7 +286,6 @@ const Home = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          sandbox="allow-scripts allow-same-origin"
         ></iframe>
         <img src={imgLojaDeLeite} />
       </ContainerMaps>
