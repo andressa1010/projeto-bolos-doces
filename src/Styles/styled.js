@@ -30,9 +30,10 @@ export const Navegacao = styled.header`
 
   @media (max-width: 360px){
     position: relative;
-    top: 10px;
+    right: 14px;
+    top: 5px;
     nav ul li{
-      font-size: 20px;
+      font-size: 23px;
     }
   }
  
