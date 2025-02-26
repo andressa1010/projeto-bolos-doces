@@ -83,6 +83,7 @@ const Home = () => {
         </h2>
         <img src={imgIreneElaine} />
       </ContainerSobre>
+      
       <ContainerBanner>
         <img src={imgBolosBanner} />
       </ContainerBanner>

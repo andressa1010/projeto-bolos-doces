@@ -28,22 +28,22 @@ export const Navegacao = styled.header`
     }
   }
 
-  @media (max-width: 360px){
+  @media (max-width: 360px) {
     position: relative;
     right: 14px;
     top: 5px;
-    nav ul li{
+    nav ul li {
       font-size: 23px;
     }
   }
- 
-  @media (max-width: 394px){
+
+  @media (max-width: 394px) {
     position: relative;
     right: 10px;
     margin: 10px;
   }
 
-  @media (max-width: 412px){
+  @media (max-width: 412px) {
     position: relative;
     right: 10px;
   }
@@ -247,9 +247,9 @@ export const ContainerBolosPotes = styled.div`
     }
   }
 
-  @media (max-width: 360px){
-     position: relative;
-     top: 50px;
+  @media (max-width: 360px) {
+    position: relative;
+    top: 50px;
   }
 `;
 
@@ -427,16 +427,14 @@ export const ContainerLoja = styled.div`
     border-radius: 40px;
   }
 
- @media(max-width:432px){
-   display: flex;
-   flex-wrap: wrap;
- }
+  @media (max-width: 432px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
- img{
-   width: 400px;
- }
-
- 
+  img {
+    width: 400px;
+  }
 `;
 
 export const ContainerBoloseDoces = styled.div`
@@ -1140,35 +1138,29 @@ export const ContainerDescricao = styled.div`
 `;
 
 export const ContainerBanner = styled.div`
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
   img {
-    width: 1320px;
-    margin: 10px;
+    width: 100%;
+    max-width: 1320px;
     border-radius: 40px;
   }
 
-  @media (max-width: 432px) {
+  @media (max-width: 768px) {
     img {
-      width: 400px;
+      border-radius: 20px;
     }
   }
 
-  @media(max-width: 394px){
-    img{
-      width: 350px;
+  @media (max-width: 480px) {
+    img {
+      border-radius: 15px;
     }
   }
 
-  @media (max-width:412px){
-    img{
-      width: 360px;
-    }
-  }
-
-  @media(max-width: 360px){
-     img{
-      width: 320px;
-     }
-  }
 `;
 
 export const BannerCardapio = styled.div`
@@ -1196,11 +1188,11 @@ export const ContainerCardapioBanner = styled.div`
     margin: 25px;
   }
 
-  @media(max-width:432px){
-    img{
+  @media (max-width: 432px) {
+    img {
       width: 200px;
     }
-    p{
+    p {
       font-size: 20px;
     }
   }
@@ -1225,61 +1217,96 @@ export const ContainerCardBanner = styled.div`
     border-radius: 40px;
   }
 
-  @media(max-width: 432px){
-    img{
+  @media (max-width: 432px) {
+    img {
       width: 200px;
     }
-    p{
+    p {
       font-size: 16px;
     }
   }
-
-
 `;
 
-
 export const ContainerBotaoCardapio = styled.div`
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 50px;
-    right: 200px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 50px;
+  right: 200px;
 
-
-    .link-cardapio{
-      text-decoration: none;
-      background-color:  #32cd32;
-      color: #ffffff;
-      font-size: 40px;
-      font-family: "Great Vibes", serif;
+  .link-cardapio {
+    text-decoration: none;
+    background-color: #32cd32;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Great Vibes", serif;
     font-weight: 400;
     font-style: normal;
     border-radius: 20px;
-
-    }
-
-    .link-cardapio:hover{
-      background-color: darkred;
-    }
-
-   
-   @media(max-width:432px){
-      position:relative;
-      right: 60px;
-
-      .link-cardapio{
-        font-size: 25px;
-      }
-   }
-
-   @media(max-width:394px){
-      position: relative;
-       right: 10px;
-       top: 20px;
-     .link-cardapio{
-      font-size: 20px;
-     }
   }
 
+  .link-cardapio:hover {
+    background-color: darkred;
+  }
 
-`
+  @media (max-width: 432px) {
+    position: relative;
+    right: 60px;
+
+    .link-cardapio {
+      font-size: 25px;
+    }
+  }
+
+  @media (max-width: 394px) {
+    position: relative;
+    right: 10px;
+    top: 20px;
+    .link-cardapio {
+      font-size: 20px;
+    }
+  }
+`;
+
+export const ContainerBannerBolos = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b251c;
+  margin: 20px;
+  height: 400px;
+  border-radius: 40px;
+
+  img {
+    width: 900px;
+    position: relative;
+    left: 150px;
+  }
+
+  p {
+    position: relative;
+    right: 150px;
+    max-width: 600px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @media(max-width:432px){
+    display: flex;
+    flex-wrap: wrap;
+    img{
+    
+      width: 600px;
+    }
+    p{
+
+      position: relative;
+      text-align: center;
+      left: 10px;
+      font-size: 15px;
+    }
+  }
+`;
