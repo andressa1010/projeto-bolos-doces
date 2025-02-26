@@ -27,6 +27,25 @@ export const Navegacao = styled.header`
       font-size: 26px;
     }
   }
+
+  @media (max-width: 360px){
+    position: relative;
+    top: 10px;
+    nav ul li{
+      font-size: 20px;
+    }
+  }
+ 
+  @media (max-width: 394px){
+    position: relative;
+    right: 10px;
+    margin: 10px;
+  }
+
+  @media (max-width: 412px){
+    position: relative;
+    right: 10px;
+  }
 `;
 
 export const LogoLoja = styled.div`
@@ -227,13 +246,9 @@ export const ContainerBolosPotes = styled.div`
     }
   }
 
-  @media (max-width: 500px) {
-    img {
-      width: 200px;
-    }
-    p {
-      font-size: 16px;
-    }
+  @media (max-width: 360px){
+     position: relative;
+     top: 50px;
   }
 `;
 
@@ -1174,6 +1189,12 @@ export const ContainerBanner = styled.div`
     img{
       width: 360px;
     }
+  }
+
+  @media(max-width: 360px){
+     img{
+      width: 320px;
+     }
   }
 `;
 
