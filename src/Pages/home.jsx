@@ -129,12 +129,12 @@ const Home = () => {
       </ContainerLoja>
 
       <ContainerLoja>
+        <img src={imgAmbiente} />
         <p>
           Aqui, cada detalhe é pensado para adoçar o seu dia! Experimente nossos
           doces artesanais e aproveite um momento especial em um ambiente
           aconchegante. Venha nos visitar e descubra o sabor da felicidade!
         </p>
-        <img src={imgAmbiente} />
       </ContainerLoja>
 
       <TituloDiv>
