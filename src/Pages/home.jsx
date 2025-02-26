@@ -85,147 +85,11 @@ const Home = () => {
         <img src={imgBolosBanner} />
       </ContainerBanner>
 
-      <TituloDiv>
-        <h2 style={{ margin: 14 }}>Conheça nosso cardápio bolos e doces</h2>
-      </TituloDiv>
-
-      <ContainerDescricaoBolos>
-        <p>
-          Bolos no pote feitos com amor e recheados de sabor! Cada colherada é
-          uma explosão de felicidade, perfeita para adoçar seu dia ou presentear
-          quem você ama. Feitos com ingredientes de qualidade e aquele toque
-          especial de 15 anos de experiência, nossos bolos no pote são a escolha
-          certa para quem busca praticidade sem abrir mão do sabor. Experimente
-          e descubra seu novo doce favorito!
-        </p>
-        <img src={imgBoloPoteNinho} />
-      </ContainerDescricaoBolos>
-
-      <ContainerBolosPotes>
-        <img src={boloPoteNinho} />
-        <p>
-          Uma explosão de sabor! O cremoso leite Ninho combinado com o
-          irresistível chocolate em camadas que derretem na boca. Peça o seu e
-          aproveite esse momento delicioso!
-        </p>
-      </ContainerBolosPotes>
-
-      <ContainerBoloPascoca>
-        <p>
-          Sabor de festa junina o ano todo! Nosso Bolo de Pote de Paçoca tem o
-          equilíbrio perfeito entre cremosidade e aquele gostinho irresistível
-          de amendoim. Experimente!
-        </p>
-        <img src={imgBoloPascoca} />
-      </ContainerBoloPascoca>
-
-      <ContainerBanner>
-        <img src={bannerCaseiros} />
-      </ContainerBanner>
-
-      <ContainerDescricaoBolos>
-        <p>
-          Tradição e sabor em cada pedaço! Nosso bolo de fubá com goiabada é
-          perfeito para acompanhar um café quentinho e trazer aquele gostinho de
-          infância.
-        </p>
-        <img src={imgBoloFuba} />
-      </ContainerDescricaoBolos>
-
-      <ContainerBolosPotes>
-        <img src={imgBoloIougut} />
-        <p>
-          Super fofinho e molhadinho, o bolo de iogurte derrete na boca! Uma
-          opção leve e deliciosa para qualquer momento do dia.
-        </p>
-      </ContainerBolosPotes>
-
-      <ContainerBoloFormigueiro>
-        <p>
-          Cada fatia é uma festa! Massa fofinha com granulados que trazem um
-          toque divertido e delicioso. Quem resiste?
-        </p>
-        <img src={imgBoloFormigueiro} />
-      </ContainerBoloFormigueiro>
-
-      <ContainerDescricaoBolos>
-        <p>
-          Experimente a doçura irresistível do nosso pão de mel! Macio, recheado
-          e coberto com chocolate, perfeito para adoçar o seu dia. Peça já o
-          seu!
-        </p>
-        <img src={imgPaodeMell} />
-      </ContainerDescricaoBolos>
-
-      <ContainerBolosPotes>
-        <img src={imgPaodeMelBrigadeiro} />
-        <p>
-          Pão de mel recheado com brigadeiro: uma explosão de sabor! Massa
-          macia, recheio cremoso e cobertura irresistível. Peça o seu e se
-          delicie!
-        </p>
-      </ContainerBolosPotes>
-
-      <ContainerBolosPotes>
-        <p>
-          Chocolate Sensação: "O encontro perfeito do chocolate com o morango!
-          Camadas cremosas que derretem na boca e despertam seus sentidos. Peça
-          já o seu!
-        </p>
-        <img src={imgBoloPote} />
-      </ContainerBolosPotes>
-
-      <ContainerBoloPoteMaracuja>
-        <img src={imgBoloPoteMaracuja} />
-        <p>
-          A doçura que encontra o azedinho perfeito!Nosso Bolo de Pote de
-          Maracujá é refrescante, cremoso e irresistível. Peça o seu e
-          surpreenda seu paladar!
-        </p>
-      </ContainerBoloPoteMaracuja>
-
-      <ContainerBoloMilho>
-        <p>
-          Bolo de Milho Sabor de fazenda em cada pedaço! Nosso bolo de milho é
-          fofinho, aromático e feito com ingredientes fresquinhos para te trazer
-          aquele gostinho caseiro irresistível. Perfeito com um café quentinho!
-        </p>
-        <img src={imgBoloMilho} />
-      </ContainerBoloMilho>
-
-      <ContainerBoloLaranja>
-        <img src={imgBoloLaranja} />
-        <p>
-          Bolo de Laranja Refrescante, macio e com um aroma irresistível! Feito
-          com suco natural de laranja para deixar seu dia mais leve e saboroso.
-        </p>
-      </ContainerBoloLaranja>
-
-      <ContainerBoloCaseiroMini>
-        <img src={imgBoloCaseiro} />
-        <p>
-          Sabor de Casa em Cada Fatia! Bolos caseiros fofinhos e feitos com
-          carinho, perfeitos para o seu café da manhã ou aquele lanche especial.
-          Peça já o seu e aproveite o sabor de aconchego!
-        </p>
-      </ContainerBoloCaseiroMini>
-      <ContainerBoloChocolateCaseiro>
-        <p>
-          Bolo de Chocolate Caseiro – Puro Sabor e Afeto! Nada como um bolo de
-          chocolate fofinho e molhadinho para adoçar o dia! Feito com
-          ingredientes selecionados e aquele toque especial de carinho, ele é
-          perfeito para acompanhar um café, presentear alguém ou simplesmente se
-          deliciar.
-        </p>
-        <img src={imgCaseiroChocolate} />
-      </ContainerBoloChocolateCaseiro>
-
       <ContainerCardBanner>
         <p>
-          Descubra o sabor irresistível dos nossos bolos e doces!Feito com
-          ingredientes selecionados e muito carinho, cada pedaço é uma
-          experiência única. Clique no botão abaixo e confira nosso cardápio
-          completo!
+          Bolos feitos com amor para adoçar seu dia! Escolha o seu favorito e
+          aproveite cada pedacinho! Clique no botão abaixo e confira nosso
+          cardápio completo!
         </p>
         <img src={imgBannerCard} />
       </ContainerCardBanner>
@@ -265,12 +129,12 @@ const Home = () => {
       </ContainerLoja>
 
       <ContainerLoja>
-        <img src={imgAmbiente} />
         <p>
           Aqui, cada detalhe é pensado para adoçar o seu dia! Experimente nossos
           doces artesanais e aproveite um momento especial em um ambiente
           aconchegante. Venha nos visitar e descubra o sabor da felicidade!
         </p>
+        <img src={imgAmbiente} />
       </ContainerLoja>
 
       <TituloDiv>
