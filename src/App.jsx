@@ -6,6 +6,7 @@ import BolosFesta from "./Pages/bolosFesta"
 import Avaliacoes from "./Pages/avaliacoes"
 import BolosCarrinho from "./Pages/bolosCarrinho"
 import ScrollToTop from "./components/scrollToTop"
+import BolosApp from "./Pages/bolosApp"
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route path="/bolosfesta" element={<BolosFesta/>}/>
       <Route path="/avaliacoes" element={<Avaliacoes/>}/>
       <Route path="/boloscarrinho" element={<BolosCarrinho/>}/>
+      <Route path="/bolosapp" element={<BolosApp/>}/>
      </Routes>
      </BrowserRouter>
     </>

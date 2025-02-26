@@ -427,44 +427,16 @@ export const ContainerLoja = styled.div`
     border-radius: 40px;
   }
 
-  @media (max-width: 412px) {
-    img {
-      width: 200px;
-    }
-    p {
-      font-size: 20px;
-    }
-  }
+ @media(max-width:432px){
+   display: flex;
+   flex-wrap: wrap;
+ }
 
-  @media (max-width: 432px) {
-    img {
-      width: 300px;
-    }
-    p {
-      font-size: 16px;
-    }
-  }
+ img{
+   width: 400px;
+ }
 
-  @media (max-width: 360px) {
-    img {
-      width: 200px;
-    }
-    p {
-      font-size: 16px;
-    }
-  }
-
-  @media (max-width: 394px) {
-    img {
-      width: 200px;
-    }
-  }
-
-  @media (max-width: 412px){
-    img{
-      width: 200px;
-    }
-  }
+ 
 `;
 
 export const ContainerBoloseDoces = styled.div`
