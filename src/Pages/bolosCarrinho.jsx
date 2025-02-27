@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
 import CartIcon from "../components/CartIcon";
 import Menu from "../components/menu";
@@ -320,7 +320,15 @@ const BotaoAdicionar = styled.button`
 
 
 const BolosCarrinho = () => {
-  const [carrinho, setCarrinho] = useState([]);
+  const [carrinho, setCarrinho] = useState(() => {
+    const carrinhoSalvo = localStorage.getItem("carrinho");
+    return carrinhoSalvo ? JSON.parse(carrinhoSalvo) : [];
+  });
+
+  // Sempre que o carrinho for atualizado, salva no localStorage
+  useEffect(() => {
+    localStorage.setItem("carrinho", JSON.stringify(carrinho));
+  }, [carrinho]);
 
   const adicionarAoCarrinho = (produto, quantidade) => {
     if (quantidade < 1)

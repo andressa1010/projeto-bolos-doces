@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  background-color: #4B251C; /* Cor suave para combinar com confeitaria */
-  color: #ffffff; /* Cor de chocolate */
+  background-color: #4B251C;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
   font-size: 20px;

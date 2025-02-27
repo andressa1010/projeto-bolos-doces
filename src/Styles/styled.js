@@ -225,8 +225,8 @@ export const ContainerBolosPotes = styled.div`
     position: relative;
     bottom: 120px;
     width: 400px;
-    opacity: 1; /* Garante que a imagem não fique transparente */
-    filter: none; /* Remove qualquer filtro */
+    opacity: 1; 
+    filter: none; 
   }
 
   @media (max-width: 412px) {
