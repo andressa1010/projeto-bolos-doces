@@ -113,12 +113,6 @@ const Home = () => {
         <img src={imgBanner} />
       </ContainerBanner>
 
-      <VerCardapio>
-        <Link className="link-cardapio" to="/boloscarrinho">
-          Ver Cardápio
-        </Link>
-      </VerCardapio>
-
       <ContainerLoja>
         <img src={imgLoja} />
         <p>
