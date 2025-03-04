@@ -1,5 +1,5 @@
 import React from "react"
-import imgLogo from "../assets/logo-de-leite.jpg"
+import imgLogo from "../assets/Logotipo confeitaria bolos delicado rosa .png"
 import { LogoLoja } from "../Styles/styled";
 
 

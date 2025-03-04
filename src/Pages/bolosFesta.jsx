@@ -87,7 +87,7 @@ const BolosFesta = () => {
       <TabelasDePrecos />
 
       <Whatsapp>
-        <a href="https://wa.me/5511997636383" target="_blank">
+        <a href="https://wa.me/55119986414262" target="_blank">
           <img src={imgZap} />
         </a>
       </Whatsapp>

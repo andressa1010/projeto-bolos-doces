@@ -23,8 +23,8 @@ import {
   VerCardapio,
   Whatsapp,
 } from "../Styles/styled";
-import imgBolosLogo from "../assets/Post para instagram bolos e doces delicado bege rosa azul (4) (1).png";
-import imgIreneElaine from "../assets/ireneeelaine.jpg";
+import imgBolosLogo from "../assets/Post para instagram bolos e doces delicado bege rosa azul (5) (1).png";
+import imgIreneElaine from "../assets/Logo para confeitaria simples rosa.png";
 import imgLoja from "../assets/foto-loja02.jpg";
 import imgBoloPote from "../assets/bolo-pote-deleite.png";
 import imgBoloLaranja from "../assets/bolo-laranja.png";
@@ -49,9 +49,11 @@ import imgBannerCard from "../assets/banner-bolos01.png";
 import bannerCaseiros from "../assets/Banner Promoção Loja de Bolo Padaria Confeitaria Moderno Marrom Rosa Amarelo (5).png";
 import imgPaodeMelBrigadeiro from "../assets/pao-de-mel04.png";
 import imgPaodeMell from "../assets/pão-de-mel01.png";
+import imgLogoContainer from "../assets/Banner Loja Virtual Confeitaria Padaria Colorido Vermelho Bege (1).png"
 import Avaliacoes from "./avaliacoes.jsx";
 import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
+import ImageSlider from "../components/slider.jsx";
 
 const Home = () => {
   return (
@@ -81,9 +83,8 @@ const Home = () => {
         </h2>
         <img src={imgIreneElaine} />
       </ContainerSobre>
-      <ContainerBanner>
-        <img src={imgBolosBanner} />
-      </ContainerBanner>
+    
+       <ImageSlider/>
 
       <ContainerCardBanner>
         <p>
@@ -109,27 +110,6 @@ const Home = () => {
         <img src={imgEntrega} />
       </ContainerEntregas>
 
-      <ContainerBanner>
-        <img src={imgBanner} />
-      </ContainerBanner>
-
-      <ContainerLoja>
-        <img src={imgLoja} />
-        <p>
-          Uma experiência irresistível te espera!Venha até nossa loja e saboreie
-          nossos bolos e doces fresquinhos no ambiente perfeito para adoçar seu
-          dia. Ou, se preferir, leve essa delícia para casa! Esperamos por você!
-        </p>
-      </ContainerLoja>
-
-      <ContainerLoja>
-        <img src={imgAmbiente} />
-        <p>
-          Aqui, cada detalhe é pensado para adoçar o seu dia! Experimente nossos
-          doces artesanais e aproveite um momento especial em um ambiente
-          aconchegante. Venha nos visitar e descubra o sabor da felicidade!
-        </p>
-      </ContainerLoja>
 
       <TituloDiv>
         <h2>Nossa Localização</h2>
@@ -145,13 +125,13 @@ const Home = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-        <img src={imgLojaDeLeite} />
+      
       </ContainerMaps>
 
       <Avaliacoes />
 
       <Whatsapp>
-        <a href="https://wa.me/5511997636383" target="_blank">
+        <a href="https://wa.me/5511986414262" target="_blank">
           <img src={imgZap} />
         </a>
       </Whatsapp>

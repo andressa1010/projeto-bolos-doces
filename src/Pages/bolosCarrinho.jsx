@@ -10,250 +10,195 @@ import LogoCardapio from "../components/logoCardapio";
 const produtos = [
   {
     id: 1,
-    nome: "Bolo pote sabor prestigio mini 150g",
+    nome: " Bolo sabor Chocolate",
     preco: "9.99",
-    imagem: "/bolo-pote-pequeno01.png",
+    imagem: "/bolo1.png",
   },
   {
     id: 2,
-    nome: "Bolo pote sabor maracujá mini 150g",
+    nome: "doce de leite com chocolate",
     preco: "9.99",
-    imagem: "/bolo-pote-pequeno02.png",
+    imagem: "/bolo2.png",
   },
   {
     id: 3,
-    nome: "Bolo pote sabor Brigadeiro mini 150g",
+    nome: "chocolate com morango",
     preco: "9.99",
-    imagem: "/bolo-pote-pequeno03.png",
+    imagem: "/bolo3.png",
   },
   {
     id: 4,
-    nome: "Bolo pote sabor Beijinho mini 150g",
+    nome: "chocolate com morango",
     preco: "9.99",
-    imagem: "/bolo-pote-pequeno04.png",
+    imagem: "/bolo3.png",
   },
   {
     id: 5,
-    nome: " Chocolate com Ninho mini 150g",
+    nome: " Chocolate tradicional",
     preco: "9.99",
-    imagem: "/bolo-pote-pequeno05.png",
+    imagem: "/bolo5.png",
   },
   {
     id: 6,
-    nome:" cenoura com chocolate mini 150g",
+    nome:" doce de leite com morangos",
     preco:9.99,
-    imagem:"/bolo-pote-cenoura.png"
+    imagem:"/bolo6.png"
   },
   { 
     id: 7, 
-    nome: "Bolo pote sabor ninho mini 150g",
+    nome: "chocolate branco tradicional",
     preco: 9.99,
-    imagem:"/bolo-ninho-mini.png"
+    imagem:"/bolo7.png"
 
   },
   {
     id: 8,
-    nome: "Bolo Chocolate Sensação 250g",
-    preco: "14.99",
-    imagem: "/bolo-pote-deleite.png",
+    nome: "chocolate suflair",
+    preco: 9.99,
+    imagem:"/bolo8.png"
   },
   {
     id: 9,
-    nome: "Bolo Chocolate com Ninho 250g",
+    nome: "Bolo Chocolate com Ninho",
     preco: "14.99",
-    imagem: "/bolo-pote-deleite01.png",
+    imagem: "/bolo9.png",
   },
   {
     id: 10,
-    nome: "Bolo Pote paçoca 250g",
+    nome: "Bolo Chocolate tradicional",
     preco: "14.99",
-    imagem: "/bolo-pote-deleite02.png",
+    imagem: "/bolo10.png",
   },
   {
     id: 11,
-    nome: " Brigadeiro com Prestigio 250g",
-    preco: 14.99,
-    imagem: "bolo-pote-deleite04.png",
+    nome: "Bolo Chocolate com morangos",
+    preco: "14.99",
+    imagem: "/bolo11.png",
   },
   {
     id: 12,
-    nome:"bolo pote sabor ninho 250g",
+    nome: " Bolo sabor Maracujá",
     preco: 14.99,
-    imagem:"bolo-ninho-gg.png"
-
+    imagem: "/bolo12.png",
   },
   {
     id: 13,
-    nome: "Gelatina mini 150g",
-    preco: 9.99,
-    imagem: "/bolo-pote-pequeno06.png",
+    nome:"bolo ninho com doce de leite",
+    preco: 14.99,
+    imagem:"/bolo13.png"
+
   },
   {
     id: 14,
-    nome:"mousse sabor morango mini 150g",
+    nome:"bolo sabor laranja",
     preco:9.99,
-    imagem:"/mouse-morango.png"
+    imagem:"/bolo14.png"
   },
   {
     id: 15,
-    nome:"mousse sabor limão mini 150g",
-    preco:9.99,
-    imagem:"/mousse-limao.png"
+    nome: "chocolate com brigadeiro",
+    preco: 9.99,
+    imagem: "/bolo15.png",
   },
   {
     id: 16,
-    nome:"mouse sabor maracujá mini 150g",
+    nome:"chocolate doce de leite",
     preco:9.99,
-    imagem:"/mouse-maracuja.png"
+    imagem:"/bolo16.png"
   },
   {
     id: 17,
-    nome: "Gelatina grande 250g",
-    preco: 14.99,
-    imagem: "/bolo-pote-pequeno06.png",
+    nome:"bolo com cobertura de chocolate",
+    preco:9.99,
+    imagem:"/bolo17.png"
   },
   {
     id: 18,
-    nome:"mousse sabor morango grande 250g",
-    preco:14.99,
-    imagem:"/mouse-morango.png"
+    nome:"bolo com cobertura de chocolate",
+    preco:9.99,
+    imagem:"/bolo18.png"
   },
   {
     id: 19,
-    nome:"mousse sabor limão grande 250g",
-    preco:14.99,
-    imagem:"/mousse-limao.png"
+    nome: "caseiro chocolate",
+    preco: 14.99,
+    imagem: "/bolo19.png",
   },
   {
     id: 20,
-    nome:"mouse sabor maracujá grande 250g",
+    nome:"caseiro chocolate",
     preco:14.99,
-    imagem:"/mouse-maracuja.png"
+    imagem:"/bolo20.png"
   },
   {
     id: 21,
-    nome: "Bolo caseiro sabor laranja 400g",
-    preco: 12.00,
-    imagem: "/bolo-caseiro01.png",
+    nome:"caseiro chocolate",
+    preco:14.99,
+    imagem:"/bolo20.png"
   },
-  {
-    id: 22,
-    nome: "Bolo caseiro sabor Chocolate 400g",
-    preco: 12.00,
-    imagem: "/bolo-caseiro02.png",
-  },
-  {
-    id: 23,
-    nome: "Bolo caseiro sabor mandioca",
-    preco: 20.00,
-    imagem: "/bolo-caseiro03.png",
-  },
-  {
-    id: 24,
-    nome: "Bolo caseiro sabor formigueiro",
-    preco: 25.99,
-    imagem: "/bolo-formigueiro.png",
-  },
-  {
-    id: 25,
-    nome: "Bolo caseiro sabor iogurte",
-    preco: 25.99,
-    imagem: "/bolo-igout.png",
-  },
+ 
   {
     id: 26,
-    nome: "Bolo caseiro fubá com goiabada",
-    preco: 25.99,
-    imagem: "/bolo-fuba.png",
+    nome:"cenoura com cobertura de chocolate",
+    preco: 99.99,
+    imagem:"/travessaDoce03.jpg"
   },
   {
-    id: 27,
-    nome: "Bolo caseiro sabor laranja",
-    preco: 25.99,
-    imagem: "/bolo-laranja.png",
+    id: 27, 
+    nome:"chocolate com cobertura de chocolate",
+    preco: 99.99,
+    imagem:"/travessaDoce05.jpg"
   },
-  {
-    id: 28,
-    nome: "Bolo caseiro sabor Mandioca com coco",
-    preco: 39.99,
-    imagem: "/mandioca.png",
-  },
+ 
   {
     id: 29,
-    nome: "Bolo caseiro sabor fubá cremoso",
-    preco: 39.99,
-    imagem: "/bolo-fuba-cremoso.png ",
+    nome: "Travessas Chocolate com morango",
+    preco: 99.99,
+    imagem: "/travessaDoce01.jpg",
   },
   {
     id: 30,
-    nome: "Bolo caseiro sabor cenoura",
-    preco: 25.99,
-    imagem: "/bolo-laranja.png",
+    nome: "Travessa Chocolate com Ninho",
+    preco: 99.99,
+    imagem: "/travessaDoce03.jpg",
   },
   {
     id: 31,
-    nome: "Bolo caseiro sabor Milho",
-    preco: 25.99,
-    imagem:"/bolo-milho.png"
+    nome: "travessa ninho com morangos",
+    preco: 99.99,
+    imagem: "/travessaDoce04.jpg",
   },
-  {
-    id: 32,
-    nome: "Pão de mel sabor Prestigio mini",
-    preco: 9.99,
-    imagem: "/pao-de-mel02.png",
-  },
-  {
-    id: 33,
-    nome: "Pão de mel sabor Ninho mini",
-    preco: 9.99,
-    imagem: "/pão-de-mel01.png",
-  },
-  {
-    id: 34,
-    nome: "Pão de mel sabor Prestigio grande ",
-    preco: 12.99,
-    imagem: "/pão-de-mel01.png",
-  },
-  {
-    id: 35,
-    nome: "Pão de mel sabor Ninho grande",
-    preco: 12.99,
-    imagem: "/pão-de-mel01.png",
-  },
+ 
   {
     id: 36,
-    nome: "Pão de mel sabor Doce de leite mini",
+    nome: "bolo pote sabor doce de leite",
     preco: 9.99,
-    imagem: "/pao-de-mel-doce-leite.png ",
+    imagem: "/bolopote03.jpg",
   },
   {
     id: 37,
-    nome: "Pão de mel sabor Doce de leite grande",
-    preco: 12.99,
-    imagem: "/pao-de-mel-doce-leite.png ",
+    nome: "bolo pote sabor ninho",
+    preco: 9.99,
+    imagem: "/bolopote05.jpg",
   },
   {
     id: 38,
-    nome: "Pão de mel sabor Prestigio grande",
-    preco: 14.99,
-    imagem: "/pao-de-mel05.png",
+    nome: "bolo pote sabor chocolate ninho ",
+    preco: 12.99,
+    imagem: "/bolopote07.jpg",
   },
   {
     id: 39,
-    nome: "Brigadeiro Gourmet",
-    preco: 7.99,
-    imagem: "/brigadeiro.png",
+    nome: "bolo pote ninho com chocolate",
+    preco: 12.99,
+    imagem: "/bolopote09.jpg",
   },
-  {
-    id: 40,
-    nome:"Browler caseiro sabor chocolate",
-    preco:9.99,
-    imagem:"/browler.png"
-  }
+   
+
   
 ];
 
-const numeroLoja = "5511997636383";
+const numeroLoja = "5511986414262";
 
 const Container = styled.div`
   display: flex;
