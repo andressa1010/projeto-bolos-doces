@@ -45,7 +45,7 @@ import imgBoloPascoca from "../assets/bolo-pote-deleite02.png";
 import imgBoloFuba from "../assets/bolo-fuba.png";
 import imgBoloIougut from "../assets/bolo-igout.png";
 import imgBoloFormigueiro from "../assets/bolo-formigueiro.png";
-import imgBannerCard from "../assets/banner-bolos01.png";
+import imgBannerCard from "../assets/bolo-brawler.png";
 import bannerCaseiros from "../assets/Banner Promoção Loja de Bolo Padaria Confeitaria Moderno Marrom Rosa Amarelo (5).png";
 import imgPaodeMelBrigadeiro from "../assets/pao-de-mel04.png";
 import imgPaodeMell from "../assets/pão-de-mel01.png";
@@ -83,6 +83,10 @@ const Home = () => {
         </h2>
         <img src={imgIreneElaine} />
       </ContainerSobre>
+
+      <TituloDiv>
+        <h2>Nossos bolos e doces</h2>
+      </TituloDiv>
     
        <ImageSlider/>
 
@@ -101,14 +105,6 @@ const Home = () => {
         </Link>
       </ContainerBotaoCardapio>
 
-      <ContainerEntregas>
-        <p>
-          Sabor e praticidade em cada pedacinho! Faça já seu pedido pelo
-          WhatsApp e receba seus doces e bolos favoritos no conforto de casa!
-          Entregamos com agilidade via Moto Uber. Peça agora e adoce seu dia!
-        </p>
-        <img src={imgEntrega} />
-      </ContainerEntregas>
 
 
       <TituloDiv>

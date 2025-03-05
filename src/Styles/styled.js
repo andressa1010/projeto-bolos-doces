@@ -1231,7 +1231,7 @@ export const ContainerBotaoCardapio = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 50px;
+  bottom: 250px;
   right: 200px;
 
   .link-cardapio {

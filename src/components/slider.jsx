@@ -37,7 +37,7 @@ const images = [
 const SliderContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
   width: 80%;
   margin: auto;
@@ -47,11 +47,11 @@ const SliderContainer = styled.div`
 const ImageWrapper = styled.div`
   display: flex;
   transition: transform 0.5s ease-in-out;
-  transform: ${({ index }) => `translateX(-${index * 100}%)`};
+  transform: ${({ index }) => `translateX(-${index * 20}%)`};
 `;
 
 const Image = styled.img`
-   width: 200px;
+   width: 300px;
    margin: 20px;
    border-radius: 40px;
   object-fit: cover;
