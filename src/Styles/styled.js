@@ -1251,6 +1251,7 @@ export const ContainerBotaoCardapio = styled.div`
 
   @media (max-width: 432px) {
     position: relative;
+    bottom: 100px;
     right: 60px;
 
     .link-cardapio {
@@ -1260,8 +1261,9 @@ export const ContainerBotaoCardapio = styled.div`
 
   @media (max-width: 394px) {
     position: relative;
+    bottom: 100px;
     right: 10px;
-    top: 20px;
+  
     .link-cardapio {
       font-size: 20px;
     }
