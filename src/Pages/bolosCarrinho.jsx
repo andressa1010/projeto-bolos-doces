@@ -138,57 +138,57 @@ const produtos = [
   },
  
   {
-    id: 26,
+    id: 22,
     nome:"cenoura com cobertura de chocolate",
     preco: 99.99,
     imagem:"/travessaDoce03.jpg"
   },
   {
-    id: 27, 
+    id: 23, 
     nome:"chocolate com cobertura de chocolate",
     preco: 99.99,
     imagem:"/travessaDoce05.jpg"
   },
  
   {
-    id: 29,
+    id: 24,
     nome: "Travessas Chocolate com morango",
     preco: 99.99,
     imagem: "/travessaDoce01.jpg",
   },
   {
-    id: 30,
+    id: 25,
     nome: "Travessa Chocolate com Ninho",
     preco: 99.99,
     imagem: "/travessaDoce03.jpg",
   },
   {
-    id: 31,
+    id: 26,
     nome: "travessa ninho com morangos",
     preco: 99.99,
     imagem: "/travessaDoce04.jpg",
   },
  
   {
-    id: 36,
+    id: 27,
     nome: "bolo pote sabor doce de leite",
     preco: 9.99,
     imagem: "/bolopote03.jpg",
   },
   {
-    id: 37,
+    id: 28,
     nome: "bolo pote sabor ninho",
     preco: 9.99,
     imagem: "/bolopote05.jpg",
   },
   {
-    id: 38,
+    id: 29,
     nome: "bolo pote sabor chocolate ninho ",
     preco: 12.99,
     imagem: "/bolopote07.jpg",
   },
   {
-    id: 39,
+    id: 30,
     nome: "bolo pote ninho com chocolate",
     preco: 12.99,
     imagem: "/bolopote09.jpg",
