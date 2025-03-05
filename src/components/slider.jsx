@@ -46,8 +46,8 @@ const SliderContainer = styled.div`
 
 const ImageWrapper = styled.div`
   display: flex;
-  transition: transform 0.5s ease-in-out;
-  transform: ${({ index }) => `translateX(-${index * 20}%)`};
+  transition: transform 0.1s ease-in-out;
+  transform: ${({ index }) => `translateX(-${index * 10}%)`};
 `;
 
 const Image = styled.img`
