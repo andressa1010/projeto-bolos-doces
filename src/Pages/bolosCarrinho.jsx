@@ -262,7 +262,7 @@ const ImagemProduto = styled.img`
   }
 
   @media (max-width: 432px) {
-    width: 150px;
+    width: 130px;
   }
 
   
