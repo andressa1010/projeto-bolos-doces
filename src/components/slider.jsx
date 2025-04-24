@@ -55,6 +55,10 @@ const Image = styled.img`
    margin: 20px;
    border-radius: 40px;
   object-fit: cover;
+
+  @media (max-width: 394px){
+     width: 250px;
+  }
 `;
 
 const Button = styled.button`
