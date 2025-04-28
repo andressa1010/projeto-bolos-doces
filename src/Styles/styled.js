@@ -131,7 +131,7 @@ export const ContainerSobre = styled.div`
     max-width: 600px;
     font-size: 30px;
     font-family: "Great Vibes", serif;
-    font-weight: 800;
+    font-weight: 500;
     font-style: normal;
   }
 
@@ -150,12 +150,10 @@ export const ContainerSobre = styled.div`
   }
 
   @media (max-width: 432px) {
-    img {
-      width: 200px;
-    }
-    h2 {
-      font-size: 14px;
-    }
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
   }
 `;
 
