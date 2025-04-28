@@ -49,7 +49,7 @@ import imgBannerCard from "../assets/bolo-brawler.png";
 import bannerCaseiros from "../assets/Banner Promoção Loja de Bolo Padaria Confeitaria Moderno Marrom Rosa Amarelo (5).png";
 import imgPaodeMelBrigadeiro from "../assets/pao-de-mel04.png";
 import imgPaodeMell from "../assets/pão-de-mel01.png";
-import imgLogoContainer from "../assets/Banner Loja Virtual Confeitaria Padaria Colorido Vermelho Bege (1).png"
+import imgLogoContainer from "../assets/Banner Loja Virtual Confeitaria Padaria Colorido Vermelho Bege (1).png";
 import Avaliacoes from "./avaliacoes.jsx";
 import Footer from "../components/footer.jsx";
 import { Link } from "react-router-dom";
@@ -72,8 +72,8 @@ const Home = () => {
       <TituloDiv>
         <h2>Nossos bolos e doces</h2>
       </TituloDiv>
-    
-       <ImageSlider/>
+
+      <ImageSlider />
 
       <ContainerCardBanner>
         <p>
@@ -105,15 +105,13 @@ const Home = () => {
         <img src={imgIreneElaine} />
       </ContainerSobre>
 
-
-
       <TituloDiv>
         <h2>Nossa Localização</h2>
       </TituloDiv>
 
       <ContainerMaps>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.160425913829!2d-46.58779692384997!3d-23.599482878766836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce424f2c415f3d%3A0x78a1e27262e0b47c!2sR.%20Alexandre%20Bon%C3%ADcio%2C%20138%20-%20Vila%20Alves%20Dias%2C%20S%C3%A3o%20Bernardo%20do%20Campo%20-%20SP%2C%2009850-450!5e0!3m2!1spt-BR!2sbr!4v1707423299821!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.627359217023!2d-46.5645981!3d-23.6914091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42332a23ad91%3A0x57f4e2493b5f7a4b!2sS%C3%A3o%20Bernardo%20do%20Campo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1714325123456!5m2!1spt-BR!2sbr"
           width="100%"
           height="450"
           style={{ border: 0, borderRadius: "10px" }}
@@ -121,7 +119,6 @@ const Home = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-      
       </ContainerMaps>
 
       <Avaliacoes />
