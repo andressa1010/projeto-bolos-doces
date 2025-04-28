@@ -70,21 +70,6 @@ const Home = () => {
       </ContainerLogo>
 
       <TituloDiv>
-        <h2>Sobre Nós</h2>
-      </TituloDiv>
-
-      <ContainerSobre>
-        <h2>
-          Com 15 anos de experiência, trazemos o doce perfeito para cada momento
-          especial! Nossos bolos e doces são feitos com cuidado, qualidade e
-          aquele toque de amor que só quem ama o que faz pode oferecer.
-          Surpreenda-se com sabores que encantam e cada partida inesquecível.
-          Encomende e experimente o sabor da perfeição!
-        </h2>
-        <img src={imgIreneElaine} />
-      </ContainerSobre>
-
-      <TituloDiv>
         <h2>Nossos bolos e doces</h2>
       </TituloDiv>
     
@@ -104,6 +89,21 @@ const Home = () => {
           Ver Cardápio
         </Link>
       </ContainerBotaoCardapio>
+
+      <TituloDiv>
+        <h2>Sobre Nós</h2>
+      </TituloDiv>
+
+      <ContainerSobre>
+        <h2>
+          Com 15 anos de experiência, trazemos o doce perfeito para cada momento
+          especial! Nossos bolos e doces são feitos com cuidado, qualidade e
+          aquele toque de amor que só quem ama o que faz pode oferecer.
+          Surpreenda-se com sabores que encantam e cada partida inesquecível.
+          Encomende e experimente o sabor da perfeição!
+        </h2>
+        <img src={imgIreneElaine} />
+      </ContainerSobre>
 
 
 

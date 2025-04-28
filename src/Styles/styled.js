@@ -131,7 +131,7 @@ export const ContainerSobre = styled.div`
     max-width: 600px;
     font-size: 30px;
     font-family: "Great Vibes", serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
   }
 
@@ -1208,7 +1208,7 @@ export const ContainerCardBanner = styled.div`
     font-size: 30px;
     color: #4b251c;
     font-family: "Great Vibes", serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
   }
 
