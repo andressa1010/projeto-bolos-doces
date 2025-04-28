@@ -131,8 +131,9 @@ export const ContainerSobre = styled.div`
     max-width: 600px;
     font-size: 30px;
     font-family: "Great Vibes", serif;
-    font-weight: 500;
+    font-weight: 800;
     font-style: normal;
+    color: #4b251c;
   }
 
   img {
@@ -1099,7 +1100,7 @@ export const VerCardapio = styled.div`
     margin: 20px;
     padding: 10px;
     text-decoration: none;
-    background-color: #32cd32;
+    background-color: deeppink;
     color: #ffffff;
     font-size: 40px;
     font-family: "Great Vibes", serif;
@@ -1234,7 +1235,7 @@ export const ContainerBotaoCardapio = styled.div`
 
   .link-cardapio {
     text-decoration: none;
-    background-color: #32cd32;
+    background-color: #4b251c;
     color: #ffffff;
     font-size: 40px;
     font-family: "Great Vibes", serif;
