@@ -73,7 +73,7 @@ export const ContainerLogo = styled.div`
 
   h2 {
     max-width: 600px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Great Vibes", serif;
     font-weight: 800;
     font-style: normal;
@@ -105,8 +105,11 @@ export const ContainerLogo = styled.div`
   }
 
   @media (max-width: 360px){
+    img{
+       width: 150px;
+    }
      h2{
-       font-size: 16px;
+       font-size: 20px;
      }
   }
 `;

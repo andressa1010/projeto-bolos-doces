@@ -62,9 +62,7 @@ const Home = () => {
       <Logo />
       <ContainerLogo>
         <h2>
-          Transformamos momentos em memórias doces! Bolo de festa, bolo no pote,
-          doces caseiros… Tudo feito com carinho para deixar seu dia ainda mais
-          especial. Experimente o sabor da felicidade!
+        Doces que encantam, momentos que marcam
         </h2>
         <img src={imgBolosLogo} />
       </ContainerLogo>
