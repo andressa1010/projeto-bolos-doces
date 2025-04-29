@@ -131,7 +131,7 @@ export const ContainerSobre = styled.div`
     max-width: 600px;
     font-size: 30px;
     font-family: "Great Vibes", serif;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
     color: #4b251c;
   }
@@ -146,7 +146,7 @@ export const ContainerSobre = styled.div`
       width: 200px;
     }
     h2 {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
 
@@ -154,6 +154,7 @@ export const ContainerSobre = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 10px;
     
   }
 `;
@@ -1217,11 +1218,13 @@ export const ContainerCardBanner = styled.div`
   }
 
   @media (max-width: 432px) {
+    
     img {
       width: 200px;
     }
     p {
-      font-size: 16px;
+      margin: 10px;
+      font-size: 22px;
     }
   }
 `;
@@ -1264,7 +1267,8 @@ export const ContainerBotaoCardapio = styled.div`
     right: 10px;
   
     .link-cardapio {
-      font-size: 20px;
+      margin: 40px;
+      font-size: 40px;
     }
   }
 `;
