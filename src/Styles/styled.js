@@ -1206,9 +1206,8 @@ export const ContainerCardapioBanner = styled.div`
 
   @media (max-width: 394px){
     p{
-      text-align:center;
-    
-      font-size: 30px;
+      text-align: center;
+      font-size: 22px;
     }
   }
 `;
