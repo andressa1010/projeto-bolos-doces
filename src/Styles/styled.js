@@ -1227,11 +1227,13 @@ export const ContainerCardapioBanner = styled.div`
   }
 
   @media (max-width: 360px){
-      p{
-        padding: 20px;
-        font-size: 20px;
-      }
+    img{
+       width: 150px;
     }
+    p{
+      font-size: 22px;
+    }
+  }
 `;
 
 export const ContainerCardBanner = styled.div`
