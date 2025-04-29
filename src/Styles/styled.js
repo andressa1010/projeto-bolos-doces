@@ -88,7 +88,9 @@ export const ContainerLogo = styled.div`
       width: 200px;
     }
     h2 {
-      font-size: 16px;
+      margin: 10px;
+      padding: 10px;
+      font-size: 20px;
     }
   }
 
@@ -156,6 +158,9 @@ export const ContainerSobre = styled.div`
     flex-wrap: wrap;
     margin: 10px;
     
+    h2{
+      font-size: 20px;
+    }
   }
 `;
 
@@ -1138,7 +1143,7 @@ export const ContainerDescricao = styled.div`
 `;
 
 export const ContainerBanner = styled.div`
-     display: flex;
+    display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
@@ -1193,7 +1198,17 @@ export const ContainerCardapioBanner = styled.div`
       width: 200px;
     }
     p {
-      font-size: 20px;
+      margin: 10px;
+      padding: 10px;
+      font-size: 25px;
+    }
+  }
+
+  @media (max-width: 394px){
+    p{
+      text-align:center;
+    
+      font-size: 30px;
     }
   }
 `;
@@ -1220,6 +1235,8 @@ export const ContainerCardBanner = styled.div`
   @media (max-width: 432px) {
     
     img {
+      position: relative;
+      bottom: 40px;
       width: 200px;
     }
     p {
@@ -1268,7 +1285,7 @@ export const ContainerBotaoCardapio = styled.div`
   
     .link-cardapio {
       margin: 40px;
-      font-size: 40px;
+      font-size: 30px;
     }
   }
 `;

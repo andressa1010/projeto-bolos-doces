@@ -15,7 +15,7 @@ const Info = styled.p`
 const Footer = () => {
   return (
     <FooterContainer>
-      <Info>📍 Loja  Bolos e Doces - Feito com amor! ❤️</Info>
+      <Info>📍 Loja  Bolos e Doces - Feito com amor!</Info>
       <Info>🕒 Horário de Funcionamento:</Info>
       <Info>Seg a Sex: 09h as 19h | Sáb 09h as 17h e Dom: 09h as 14h</Info>
       <Info>📞 Contato: (11) 9864199888</Info>
