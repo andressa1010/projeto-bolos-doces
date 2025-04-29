@@ -86,21 +86,21 @@ export const ContainerLogo = styled.div`
 
   @media (max-width: 432px) {
     img {
-      width: 200px;
+      width: 150px;
     }
     h2 {
       margin: 10px;
       padding: 10px;
-      font-size: 20px;
+      font-size: 30px;
     }
   }
 
   @media (max-width: 412px) {
     img {
-      width: 200px;
+      width: 150px;
     }
     h2 {
-      font-size: 20px;
+      font-size: 30px;
     }
   }
 
@@ -112,7 +112,17 @@ export const ContainerLogo = styled.div`
        font-size: 20px;
      }
   }
+
+  @media (max-width: 394px){
+     img{
+      width: 150px;
+     }
+      h2{
+        font-size: 25px;
+      }
+  }
 `;
+
 
 export const TituloDiv = styled.div`
   display: flex;
