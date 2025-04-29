@@ -102,6 +102,12 @@ export const ContainerLogo = styled.div`
       font-size: 20px;
     }
   }
+
+  @media (max-width: 360px){
+     h2{
+       font-size: 16px;
+     }
+  }
 `;
 
 export const TituloDiv = styled.div`
@@ -1219,6 +1225,13 @@ export const ContainerCardapioBanner = styled.div`
       font-size: 22px;
     }
   }
+
+  @media (max-width: 360px){
+      p{
+        padding: 20px;
+        font-size: 20px;
+      }
+    }
 `;
 
 export const ContainerCardBanner = styled.div`
@@ -1295,6 +1308,10 @@ export const ContainerBotaoCardapio = styled.div`
       margin: 40px;
       font-size: 30px;
     }
+  }
+
+  @media (max-width: 360px){
+     margin: 10px;
   }
 `;
 

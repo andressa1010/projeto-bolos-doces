@@ -114,7 +114,7 @@ const Home = () => {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14632.627359217023!2d-46.5645981!3d-23.6914091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42332a23ad91%3A0x57f4e2493b5f7a4b!2sS%C3%A3o%20Bernardo%20do%20Campo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1714325123456!5m2!1spt-BR!2sbr"
           width="100%"
           height="450"
-          style={{ border: 0, borderRadius: "10px" }}
+          style={{ border: 0, borderRadius: "10px" , margin: "10px" }}
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
