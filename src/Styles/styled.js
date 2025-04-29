@@ -539,6 +539,7 @@ export const ContainerBolosFesta = styled.div`
     }
 
     p {
+      margin: 10px;
       font-size: 16px;
     }
   }
@@ -567,7 +568,8 @@ export const ContainerBolos = styled.div`
       width: 200px;
     }
     p {
-      font-size: 16px;
+      margin: 10px;
+      font-size: 17px;
     }
   }
 `;
@@ -684,9 +686,14 @@ export const ContainerBoloChocolateFesta = styled.div`
 
   @media (max-width: 412px) {
     img {
+      position: relative;
+      bottom: 50px;
+    
       width: 200px;
     }
     p {
+    
+      margin: 10px;
       font-size: 16px;
     }
   }
@@ -696,6 +703,7 @@ export const ContainerBoloChocolateFesta = styled.div`
       width: 200px;
     }
     p {
+      margin: 10px;
       font-size: 13px;
     }
   }
@@ -754,6 +762,7 @@ export const ContainerBoloRedValvet = styled.div`
       width: 200px;
     }
     p {
+      margin: 10px;
       font-size: 13px;
     }
   }
