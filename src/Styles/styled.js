@@ -1326,6 +1326,13 @@ export const ContainerBotaoCardapio = styled.div`
     }
   }
 
+  @media (max-width: 412px){
+    .link-cardapio{
+      margin: 40px;
+       font-size: 30px;
+    }
+  }
+
   @media (max-width: 360px){
      margin: 10px;
   }
