@@ -54,6 +54,9 @@ Layout moderno, responsivo e agradável.
 
 ![projeto-bolos-doces](https://github.com/user-attachments/assets/daf02dd5-0643-4b33-b873-2e6119304f2b)
 
+![image](https://github.com/user-attachments/assets/64a97c9a-9d7f-4468-ab2a-30ebcb86ef89)
+
+
 ![image](https://github.com/user-attachments/assets/0b0b51d5-c1ce-4c39-9af9-79e0a228ee3e)
 
 
